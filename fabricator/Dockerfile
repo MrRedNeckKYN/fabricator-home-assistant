@@ -1,7 +1,7 @@
 # Fabricator publishes a multi-architecture image for amd64 and arm64.
 # Keep this pinned: upgrades should be reviewed and made intentionally in
 # config.yaml and this FROM line together.
-FROM ghcr.io/philderks/fabricator:v1.5.0
+FROM ghcr.io/philderks/fabricator:1.5.0
 
 COPY run.sh /usr/local/bin/ha-fabricator-run
 RUN chmod 0755 /usr/local/bin/ha-fabricator-run

@@ -1,7 +1,8 @@
 # Fabricator for Home Assistant
 
 This is an **unofficial local Home Assistant add-on package** for
-[Fabricator](https://fabricator.site/), version `v1.5.0`. Fabricator is a web
+[Fabricator](https://fabricator.site/), release `v1.5.0` (container tag
+`1.5.0`). Fabricator is a web
 dashboard that installs and manages Minecraft server software; it is not a
 Minecraft server or a Minecraft Java distribution by itself.
 
