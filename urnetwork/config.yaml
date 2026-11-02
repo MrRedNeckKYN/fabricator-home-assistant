@@ -1,0 +1,16 @@
+name: URnetwork Provider
+version: "2026.10.27"
+slug: urnetwork
+description: Run an official URnetwork community provider
+url: https://ur.io/docs/getting-started-linux
+arch:
+  - aarch64
+  - amd64
+init: false
+legacy: true
+startup: application
+boot: auto
+options:
+  auth_code: ""
+schema:
+  auth_code: password?
