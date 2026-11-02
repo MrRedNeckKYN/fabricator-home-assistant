@@ -1,0 +1,21 @@
+name: Grass (ARM64, manual login)
+version: "2026.11.01"
+slug: grass
+description: Unofficial ARM64 Grass node with manual noVNC login
+url: https://github.com/MRColorR/get-grass
+arch:
+  - aarch64
+init: false
+legacy: true
+startup: application
+boot: auto
+ports:
+  6080/tcp: 6080
+ports_description:
+  6080/tcp: noVNC login screen (keep LAN-only)
+options:
+  VNC_PASSWORD: ""
+  VNC_RESOLUTION: "1280x720"
+schema:
+  VNC_PASSWORD: password
+  VNC_RESOLUTION: str
